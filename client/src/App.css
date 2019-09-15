@@ -1,3 +1,17 @@
+html,
+body {
+  margin: 0;
+}
+
 .App {
   text-align: center;
+}
+
+.particle-wrapper canvas {
+  margin-top: 48px;
+  width: 100%;
+  height: calc(100vh - 48px) !important;
+  position: 'absolute';
+  z-index: -1;
+  background-color: #333333;
 }
