@@ -8,7 +8,8 @@ body {
 }
 
 .particle-wrapper {
-  background-color: #e6e6e6;
+  width: 100%;
+  height: calc(100vh - 48px) !important;
 }
 .particle-wrapper canvas {
   margin-top: 48px;
