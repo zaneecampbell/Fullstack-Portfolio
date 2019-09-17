@@ -1,13 +1,7 @@
 import React from 'react';
 import Typography from '@material-ui/core/Typography';
-import { withStyles } from '@material-ui/core/styles';
 
-const styles = theme => ({
-  root: {}
-});
-
-const Intro = props => {
-  const { classes } = props;
+const Intro = () => {
   return (
     <div
       style={{
@@ -23,7 +17,7 @@ const Intro = props => {
         maxWidth: '500px'
       }}
     >
-      <img style={{ maxWidth: '200px', textAlign: 'center' }} src='/me.png' />
+      <img style={{ maxWidth: '200px', textAlign: 'center' }} src='/me.png' alt='Profile of Zane.' />
       <Typography
         style={{
           color: 'white',
@@ -39,6 +33,6 @@ const Intro = props => {
   );
 };
 
-export default withStyles(styles)(Intro);
+export default Intro;
 
 // Add Portfolio picture

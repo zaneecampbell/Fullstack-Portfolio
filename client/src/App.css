@@ -7,11 +7,7 @@ body {
   text-align: center;
 }
 
-.particle-wrapper {
-  width: 100%;
-  height: calc(100vh - 48px) !important;
-}
-.particle-wrapper canvas {
+.particle-div {
   margin-top: 48px;
   width: 100%;
   height: calc(100vh - 48px) !important;

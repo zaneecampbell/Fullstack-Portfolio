@@ -91,10 +91,7 @@ const Landing = () => {
       </div>
       <div className='particle-wrapper'>
         <Intro />
-        <Particles
-          style={{ backgroundSize: 'cover' }}
-          params={particleConfig}
-        />
+        <Particles className='particle-div' params={particleConfig} />
       </div>
       <div>
         <About />
