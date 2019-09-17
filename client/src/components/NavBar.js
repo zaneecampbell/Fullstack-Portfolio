@@ -42,7 +42,7 @@ const NavBar = props => {
   const { value } = tab;
 
   const handleChange = (e, value) => {
-    setTab({ ...value, value: e.target.value });
+    setTab({ value });
   };
 
   return (

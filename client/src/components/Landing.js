@@ -93,7 +93,7 @@ const Landing = () => {
         <Intro />
         <Particles className='particle-div' params={particleConfig} />
       </div>
-      <div>
+      <div id='about'>
         <About />
       </div>
     </div>
