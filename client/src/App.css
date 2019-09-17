@@ -7,6 +7,9 @@ body {
   text-align: center;
 }
 
+.particle-wrapper {
+  background-color: #e6e6e6;
+}
 .particle-wrapper canvas {
   margin-top: 48px;
   width: 100%;

@@ -2,6 +2,7 @@ import React from 'react';
 import NavBar from './NavBar';
 import Intro from './Intro';
 import Particles from 'react-particles-js';
+import About from './About';
 
 const Landing = () => {
   // config for particle js background
@@ -92,7 +93,9 @@ const Landing = () => {
         <Intro />
         <Particles params={particleConfig} />
       </div>
-      <div style={{ fontSize: '1.5rem' }}>test</div>
+      <div>
+        <About />
+      </div>
     </div>
   );
 };
