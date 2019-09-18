@@ -83,8 +83,8 @@ export const About = props => {
             <Typography className={classes.typographyP1}>
               Hi I'm Zane, a MERN stack focused Fullstack Developer. I relocated
               here from Oklahoma for better career opportunities and I've been
-              studying ever since. Outside of development I enjoy cooking new
-              things and bantering with friends. Learning is my passion and
+              studying ever since. Outside of development I enjoy cooking and
+              hiking with a small group of friends. Learning is my passion and
               programming has been the best outlet I could have found, always
               looking for that next answer, practicing that new library, or
               sifting through documentation for better understanding.
