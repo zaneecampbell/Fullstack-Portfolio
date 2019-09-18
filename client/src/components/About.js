@@ -14,7 +14,7 @@ const styles = theme => ({
     background: '#e6e6e6',
     boxShadow: 'none',
     paddingTop: 50,
-    paddingBottom: 0
+    paddingBottom: 500
   },
   paper: {
     background: '#e6e6e6',
@@ -100,13 +100,16 @@ export const About = props => {
         </Grid>
         <Grid item xs={12} md={4}>
           <Paper className={classes.paper2}>
-            <Typography
-              id='skill-text'
-              className={classes.typographyTitle2}
-              variant='h2'
-            >
-              Skills
-            </Typography>
+            <div style={{ display: 'inline' }}>
+              <Typography
+                id='skill-text'
+                className={classes.typographyTitle2}
+                style={{ display: 'inline' }}
+                variant='h2'
+              >
+                Skills
+              </Typography>
+            </div>
             <div className={classes.skillsList}>
               <SkillsList />
             </div>
