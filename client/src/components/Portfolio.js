@@ -4,21 +4,19 @@ import Typography from '@material-ui/core/Typography';
 
 const Portfolio = () => {
   return (
-    <div style={{ maxWidth: '1400px', margin: 'auto' }}>
-      <Grid style={{ paddingTop: '50px' }} container>
-        <Grid item xs={12} md={6}>
-          Picture Here
-        </Grid>
-        <Grid item xs={12} md={6}>
+    <div style={{ maxWidth: '1400px', margin: 'auto', marginTop: '50px' }}>
+      <Grid justify='center' container>
+        <img
+          style={{ width: '100%', maxWidth: '700px' }}
+          src='https://i.imgur.com/6nMLf.jpg'
+          alt='duck'
+        />
+        <Grid style={{ background: '#e6e6e6', maxWidth: '700px' }} md={8} item>
           <Typography style={{ fontSize: '1.4rem' }}>
-            Lorem ipsum, dolor sit amet consectetur adipisicing elit. Obcaecati
-            assumenda beatae debitis, reiciendis quia possimus similique sed
-            excepturi sapiente culpa odit corrupti quisquam eius vel ab
-            dignissimos magni, dolore, repudiandae iste blanditiis hic soluta
-            dicta asperiores ipsa! Praesentium maxime dolor, perspiciatis nulla
-            accusamus sint, non ullam assumenda repudiandae eos ducimus
-            excepturi, laborum illo consectetur qui voluptatibus voluptatum a
-            quidem quisquam.
+            Lorem ipsum, dolor sit amet consectetur adipisicing elit. Numquam
+            quasi voluptas accusamus officiis sunt distinctio fuga maiores
+            magnam, consequuntur praesentium, saepe iste minus! Repellat animi
+            officiis suscipit unde sapiente rerum soluta?
           </Typography>
         </Grid>
       </Grid>
