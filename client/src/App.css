@@ -1,3 +1,5 @@
+/* ~~~~~The Everything Section~~~~~ */
+
 * {
   box-sizing: border-box;
 }
@@ -21,4 +23,86 @@ body {
   position: 'absolute';
   z-index: -1;
   background-color: #333333;
+}
+
+/* ~~~~~The Skills Section~~~~~ */
+
+#html5-svg:hover > path {
+  transition: 0.3s ease;
+  fill: #e34f26;
+}
+
+#css3-svg:hover > path {
+  transition: 0.3s ease;
+  fill: black;
+}
+
+#sass-svg:hover > path {
+  transition: 0.3s ease;
+  fill: #c69;
+}
+
+#material-ui-svg:hover #material-ui-svg1 {
+  transition: 0.3s ease;
+  fill: #00b0ff;
+}
+
+#material-ui-svg:hover #material-ui-svg2 {
+  transition: 0.3s ease;
+  fill: #0081cb;
+}
+
+#js-svg:hover > path {
+  transition: 0.3s ease;
+  fill: #f7df1e;
+}
+
+#es6-svg:hover #es6-svg1 {
+  transition: 0.3s ease;
+  fill: #f26522;
+}
+
+#es6-svg:hover #es6-svg2 {
+  transition: 0.3s ease;
+  fill: #fff;
+}
+
+#react-svg:hover > path {
+  transition: 0.3s ease;
+  fill: #61dafb;
+}
+
+#redux-svg:hover > path {
+  transition: 0.3s ease;
+  fill: #764abc;
+}
+
+#react-router-svg:hover #react-router-svg1 {
+  transition: 0.3s ease;
+  fill: #000000;
+}
+
+#react-router-svg:hover #react-router-svg2 {
+  transition: 0.3s ease;
+  fill: #d0021b;
+}
+
+#webpack-svg:hover #webpack-svg1 {
+  transition: 0.3s ease;
+  fill: #8ed6fb;
+}
+
+#webpack-svg:hover #webpack-svg2 {
+  transition: 0.3s ease;
+  fill: #1c78c0;
+}
+
+#git-svg:hover > path {
+  transition: 0.3s ease;
+  fill: #f05032;
+}
+
+#github-svg:hover > path {
+  transition: 0.3s ease;
+  fill: black;
 }
