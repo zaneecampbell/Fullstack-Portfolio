@@ -3,6 +3,7 @@ import NavBar from './NavBar';
 import Intro from './Intro';
 import Particles from 'react-particles-js';
 import About from './About';
+import Portfolio from './Portfolio';
 
 const Landing = () => {
   // config for particle js background
@@ -95,6 +96,9 @@ const Landing = () => {
       </div>
       <div id='about'>
         <About />
+      </div>
+      <div id='portfolio'>
+        <Portfolio />
       </div>
     </div>
   );

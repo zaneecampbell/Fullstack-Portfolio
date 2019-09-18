@@ -14,7 +14,7 @@ const styles = theme => ({
     background: '#e6e6e6',
     boxShadow: 'none',
     paddingTop: 50,
-    paddingBottom: 500
+    paddingBottom: 50
   },
   paper: {
     background: '#e6e6e6',

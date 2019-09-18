@@ -14,7 +14,7 @@ export const SkillsList = props => {
   const { classes } = props;
 
   return (
-    <div>
+    <div style={{ maxWidth: '600px', margin: 'auto' }}>
       <Grid container spacing={2} justify='center' alignItems='center'>
         <Grid item xs={3} md={4}>
           <Tooltip classes={{ tooltip: classes.tooltip }} title='Html5'>
