@@ -11,7 +11,7 @@ const Portfolio = () => {
           src='https://i.imgur.com/6nMLf.jpg'
           alt='duck'
         />
-        <Grid style={{ background: '#e6e6e6', maxWidth: '700px' }} md={8} item>
+        <Grid style={{ background: '#e6e6e6', maxWidth: '700px' }} md={12} item>
           <Typography variant='h2'>Inventory App</Typography>
           <Typography style={{ fontSize: '1.4rem' }}>
             Lorem ipsum, dolor sit amet consectetur adipisicing elit. Numquam
@@ -28,7 +28,7 @@ const Portfolio = () => {
           alt='duck'
         />
         <Grid style={{ background: '#e6e6e6', maxWidth: '700px' }} md={8} item>
-          <Typography variant='h2'>Inventory App</Typography>
+          <Typography variant='h2'>Digital Artist Portfolio Website</Typography>
           <Typography style={{ fontSize: '1.4rem' }}>
             Lorem ipsum, dolor sit amet consectetur adipisicing elit. Numquam
             quasi voluptas accusamus officiis sunt distinctio fuga maiores
@@ -44,7 +44,7 @@ const Portfolio = () => {
           alt='duck'
         />
         <Grid style={{ background: '#e6e6e6', maxWidth: '700px' }} md={8} item>
-          <Typography variant='h2'>Inventory App</Typography>
+          <Typography variant='h2'>Voting App</Typography>
           <Typography style={{ fontSize: '1.4rem' }}>
             Lorem ipsum, dolor sit amet consectetur adipisicing elit. Numquam
             quasi voluptas accusamus officiis sunt distinctio fuga maiores

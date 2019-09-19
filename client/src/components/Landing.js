@@ -4,6 +4,7 @@ import Intro from './Intro';
 import Particles from 'react-particles-js';
 import About from './About';
 import Portfolio from './Portfolio';
+import Contact from './Contact';
 
 const Landing = () => {
   // config for particle js background
@@ -97,8 +98,11 @@ const Landing = () => {
       <div id='about'>
         <About />
       </div>
-      <div id='portfolio'>
+      <div id='portfolio' style={{ margin: '10px' }}>
         <Portfolio />
+      </div>
+      <div id='contact'>
+        <Contact />
       </div>
     </div>
   );
