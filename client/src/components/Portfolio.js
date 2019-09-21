@@ -8,7 +8,8 @@ const Portfolio = () => {
       style={{
         maxWidth: '1400px',
         margin: 'auto',
-        marginBottom: '100px'
+        marginBottom: '100px',
+        overflowX: 'hidden'
       }}
     >
       <Typography
@@ -21,11 +22,7 @@ const Portfolio = () => {
       >
         Portfolio
       </Typography>
-      <section
-        data-aos='fade-left'
-        data-aos-offset='200'
-        data-aos-duration='1000'
-      >
+      <section data-aos='fade-left'>
         <Grid justify='center' container>
           <a
             href='https://fullstack-inventory-app.herokuapp.com/'
@@ -117,11 +114,7 @@ const Portfolio = () => {
           </Grid>
         </Grid>
       </section>
-      <section
-        data-aos='fade-left'
-        data-aos-offset='200'
-        data-aos-duration='1000'
-      >
+      <section data-aos='fade-left'>
         <Grid style={{ marginTop: '100px' }} justify='center' container>
           <a
             style={{ background: 'rgb(230, 230, 230)' }}
