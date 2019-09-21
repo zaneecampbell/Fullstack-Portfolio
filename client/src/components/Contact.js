@@ -38,7 +38,7 @@ const Contact = () => {
 
   return (
     <div style={{ background: '#e6e6e6', textAlign: 'center' }}>
-      <Typography style={{ paddingTop: '25px' }} variant='h2'>
+      <Typography style={{ paddingTop: '25px', fontSize: '2rem' }}>
         Contact Me
       </Typography>
       <div
@@ -54,7 +54,7 @@ const Contact = () => {
             style={{
               fontSize: '25px',
               margin: '5px',
-              width: '45%',
+              width: '55%',
               minWidth: '300px'
             }}
             type='email'
@@ -69,7 +69,7 @@ const Contact = () => {
             style={{
               fontSize: '25px',
               margin: '5px',
-              width: '45%',
+              width: '55%',
               minWidth: '300px'
             }}
             type='name'
@@ -80,21 +80,24 @@ const Contact = () => {
             autoComplete='off'
           />
           <br />
-          <Input
+          <TextField
             style={{
               fontSize: '25px',
               margin: '5px',
-              width: '45%',
+              width: '55%',
               minWidth: '300px'
             }}
+            variant='outlined'
             type='text'
+            multiline
+            rows='4'
             value={text}
             name='text'
             placeholder="Let me know what's up"
             onChange={e => onChange(e)}
             autoComplete='off'
           />
-          <div style={{ margin: 'auto', width: '45%', textAlign: 'right' }}>
+          <div style={{ margin: 'auto', width: '55%', textAlign: 'right' }}>
             <Button
               style={{
                 marginTop: '25px',
