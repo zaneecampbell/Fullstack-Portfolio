@@ -4,14 +4,38 @@ import Typography from '@material-ui/core/Typography';
 
 const Portfolio = () => {
   return (
-    <div style={{ maxWidth: '1400px', margin: 'auto', marginTop: '100px' }}>
+    <div
+      style={{
+        maxWidth: '1400px',
+        margin: 'auto',
+        marginTop: '100px',
+        marginBottom: '100px'
+      }}
+    >
       <Grid justify='center' container>
-        <img
-          style={{ width: '100%', maxWidth: '700px' }}
-          src='portfolio_images/Inventory_app.JPG'
-          alt='Inventory App'
-        />
-        <Grid style={{ background: '#e6e6e6', maxWidth: '700px' }} md={12} item>
+        <a
+          href='https://fullstack-inventory-app.herokuapp.com/'
+          target='_blank'
+          rel='noopener noreferrer'
+        >
+          <img
+            style={{
+              width: '100%',
+              maxWidth: '700px',
+              verticalAlign: 'text-bottom'
+            }}
+            src='portfolio_images/Inventory_app.JPG'
+            alt='Inventory App'
+          />
+        </a>
+        <Grid
+          style={{
+            background: '#e6e6e6',
+            maxWidth: '700px'
+          }}
+          md={12}
+          item
+        >
           <Typography
             style={{ textAlign: 'center', marginTop: '30px' }}
             variant='h2'
@@ -33,11 +57,22 @@ const Portfolio = () => {
         </Grid>
       </Grid>
       <Grid style={{ marginTop: '100px' }} justify='center' container>
-        <img
-          style={{ width: '100%', maxWidth: '700px' }}
-          src='portfolio_images/ChocoNov_Website.png'
-          alt='duck'
-        />
+        <a
+          style={{ background: 'white' }}
+          href='https://choconov-portfolio.herokuapp.com/'
+          target='_blank'
+          rel='noopener noreferrer'
+        >
+          <img
+            style={{
+              width: '100%',
+              maxWidth: '700px',
+              verticalAlign: 'text-bottom'
+            }}
+            src='portfolio_images/ChocoNov_Website.png'
+            alt='duck'
+          ></img>
+        </a>
         <Grid style={{ background: '#e6e6e6', maxWidth: '700px' }} md={12} item>
           <Typography
             style={{ textAlign: 'center', marginTop: '30px' }}
@@ -58,11 +93,22 @@ const Portfolio = () => {
         </Grid>
       </Grid>
       <Grid style={{ marginTop: '100px' }} justify='center' container>
-        <img
-          style={{ width: '100%', maxWidth: '700px' }}
-          src='portfolio_images/Voting_App.JPG'
-          alt='Voting App'
-        />
+        <a
+          style={{ background: 'rgb(230, 230, 230)' }}
+          href='https://chill-polls.herokuapp.com/'
+          target='_blank'
+          rel='noopener noreferrer'
+        >
+          <img
+            style={{
+              width: '100%',
+              maxWidth: '700px',
+              verticalAlign: 'text-bottom'
+            }}
+            src='portfolio_images/Voting_App.JPG'
+            alt='Voting App'
+          />
+        </a>
         <Grid style={{ background: '#e6e6e6', maxWidth: '700px' }} md={12} item>
           <Typography
             style={{ textAlign: 'center', marginTop: '30px' }}
