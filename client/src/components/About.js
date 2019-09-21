@@ -61,9 +61,6 @@ const styles = theme => ({
       marginBottom: 50
     }
   },
-  typographyTitle2: {
-    textDecoration: 'underline'
-  },
   skillsList: {
     marginTop: 50
   }
@@ -78,7 +75,7 @@ export const About = props => {
         <Grid item xs={12} md={8}>
           <Paper className={classes.paper}>
             <Typography className={classes.typographyTitle} variant='h2'>
-              About:
+              About
             </Typography>
             <Typography className={classes.typographyP1}>
               Hi I'm Zane, a MERN stack focused Fullstack Developer. I relocated
@@ -103,7 +100,6 @@ export const About = props => {
             <div style={{ display: 'inline' }}>
               <Typography
                 id='skill-text'
-                className={classes.typographyTitle2}
                 style={{ display: 'inline' }}
                 variant='h2'
               >

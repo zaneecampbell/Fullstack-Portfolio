@@ -8,10 +8,19 @@ const Portfolio = () => {
       style={{
         maxWidth: '1400px',
         margin: 'auto',
-        marginTop: '100px',
         marginBottom: '100px'
       }}
     >
+      <Typography
+        style={{
+          textAlign: 'center',
+          marginTop: '50px',
+          marginBottom: '50px'
+        }}
+        variant='h2'
+      >
+        Portfolio
+      </Typography>
       <section
         data-aos='fade-left'
         data-aos-offset='200'
