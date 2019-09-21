@@ -14,7 +14,7 @@ const Portfolio = () => {
     >
       <section
         data-aos='fade-left'
-        data-aos-offset='400'
+        data-aos-offset='200'
         data-aos-duration='1000'
       >
         <Grid justify='center' container>
@@ -50,21 +50,21 @@ const Portfolio = () => {
             <Typography
               style={{ fontSize: '1.4rem', marginTop: '30px', margin: '15px' }}
             >
-              My biggest project to date utilizing as many techniques and
-              technologies that I could, built using the MERN stack. The
+              Personal inventory tracking site, create an account and login to
+              create/update your own inventory. Utilizing the MERN stack the
               FrontEnd is built using React, React-Redux w/ thunk middleware,
               React-Router with authentication checking, and material-ui for
-              design. Backend server is built on top of Express, passwords
-              hashed in database with bcryptjs and tracked with jsonwebtokens,
-              validation utilizing express validator, and mongodb/mongoose for
-              database management. Hosted on heroku.
+              design, and the Backend server is built on top of Express,
+              passwords hashed in database with bcryptjs and tracked with
+              jsonwebtokens, validation utilizing express validator, and
+              mongodb/mongoose for users and user data. Hosted on heroku.
             </Typography>
           </Grid>
         </Grid>
       </section>
       <section
         data-aos='fade-right'
-        data-aos-offset='400'
+        data-aos-offset='200'
         data-aos-duration='1000'
       >
         <Grid style={{ marginTop: '100px' }} justify='center' container>
@@ -110,7 +110,7 @@ const Portfolio = () => {
       </section>
       <section
         data-aos='fade-left'
-        data-aos-offset='400'
+        data-aos-offset='200'
         data-aos-duration='1000'
       >
         <Grid style={{ marginTop: '100px' }} justify='center' container>
@@ -145,7 +145,7 @@ const Portfolio = () => {
               style={{ fontSize: '1.4rem', marginTop: '30px', margin: '15px' }}
             >
               A fullstack voting appliation built using the MERN stack. The
-              Create pages form adds more fields as the last field available is
+              Create page form adds more fields as the last field available is
               used. I prevent multiple votes through setting id values in
               localstorage and checking them. The database Results page is
               updated in real-time for user convenience. Styled with
