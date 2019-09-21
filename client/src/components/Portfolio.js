@@ -12,7 +12,11 @@ const Portfolio = () => {
         marginBottom: '100px'
       }}
     >
-      <section data-aos='fade-left'>
+      <section
+        data-aos='fade-left'
+        data-aos-offset='400'
+        data-aos-duration='1000'
+      >
         <Grid justify='center' container>
           <a
             href='https://fullstack-inventory-app.herokuapp.com/'
@@ -58,7 +62,11 @@ const Portfolio = () => {
           </Grid>
         </Grid>
       </section>
-      <section data-aos='fade-right'>
+      <section
+        data-aos='fade-right'
+        data-aos-offset='400'
+        data-aos-duration='1000'
+      >
         <Grid style={{ marginTop: '100px' }} justify='center' container>
           <a
             style={{ background: 'white' }}
@@ -100,7 +108,11 @@ const Portfolio = () => {
           </Grid>
         </Grid>
       </section>
-      <section data-aos='fade-left'>
+      <section
+        data-aos='fade-left'
+        data-aos-offset='400'
+        data-aos-duration='1000'
+      >
         <Grid style={{ marginTop: '100px' }} justify='center' container>
           <a
             style={{ background: 'rgb(230, 230, 230)' }}
