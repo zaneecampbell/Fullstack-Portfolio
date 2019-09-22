@@ -35,7 +35,7 @@ const Portfolio = () => {
                 maxWidth: '700px',
                 verticalAlign: 'text-bottom'
               }}
-              src='portfolio_images/Inventory_app.JPG'
+              src='portfolio_images/Inventory_App.JPG'
               alt='Inventory App'
             />
           </a>
@@ -87,7 +87,7 @@ const Portfolio = () => {
                 verticalAlign: 'text-bottom'
               }}
               src='portfolio_images/ChocoNov_Website.png'
-              alt='duck'
+              alt='Freelane artist Website'
             ></img>
           </a>
           <Grid
