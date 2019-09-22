@@ -7,7 +7,7 @@ const sendMessage = (email, name, text) => {
   sgMail.send({
     to: 'ZaneGitInit@gmail.com',
     from: email,
-    subject: `Commission Request ${name}`,
+    subject: `${name} wants to hire you!`,
     text
   });
 };

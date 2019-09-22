@@ -112,7 +112,7 @@ const Contact = () => {
                 fontSize: '20px',
                 backgroundColor: '#495057',
                 padding: '5px',
-                color: 'white'
+                color: '#e6e6e6'
               }}
               type='submit'
             >
