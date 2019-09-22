@@ -44,14 +44,9 @@ body {
   fill: rgb(33.72549%, 23.921569%, 48.627451%);
 }
 
-#material-ui-svg:hover #material-ui-svg1 {
+#express-svg:hover > path{
   transition: 0.3s ease;
-  fill: #00b0ff;
-}
-
-#material-ui-svg:hover #material-ui-svg2 {
-  transition: 0.3s ease;
-  fill: #0081cb;
+  fill: black;
 }
 
 #js-svg:hover > path {
@@ -84,14 +79,19 @@ body {
   fill: #d0021b;
 }
 
-#webpack-svg:hover #webpack-svg1 {
+#mongodb-svg:hover #mongodb-svg1 {
   transition: 0.3s ease;
-  fill: #8ed6fb;
+  fill: rgb(65.098039%,63.921569%,52.156863%);
 }
 
-#webpack-svg:hover #webpack-svg2 {
+#mongodb-svg:hover #mongodb-svg2 {
   transition: 0.3s ease;
-  fill: #1c78c0;
+  fill: rgb(28.627451%,61.568627%,29.019608%);
+}
+
+#mongodb-svg:hover #mongodb-svg3 {
+  transition: 0.3s ease;
+  fill: rgb(34.509804%,66.666667%,31.372549%);
 }
 
 #git-svg:hover > path {

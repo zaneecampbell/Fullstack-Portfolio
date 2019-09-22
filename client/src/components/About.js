@@ -62,7 +62,8 @@ const styles = theme => ({
     }
   },
   skillsList: {
-    marginTop: 50
+    marginTop: 50,
+    margin: 'auto'
   }
 });
 
