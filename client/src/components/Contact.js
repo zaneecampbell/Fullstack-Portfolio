@@ -38,7 +38,7 @@ const Contact = () => {
 
   return (
     <div style={{ background: '#e6e6e6', textAlign: 'center' }}>
-      <Typography style={{ paddingTop: '25px', fontSize: '2rem' }}>
+      <Typography style={{ paddingTop: '25px' }} variant='h2'>
         Contact Me
       </Typography>
       <div
