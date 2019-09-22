@@ -78,6 +78,7 @@ const Contact = () => {
             placeholder='Company/Name'
             onChange={e => onChange(e)}
             autoComplete='off'
+            required
           />
           <br />
           <TextField
@@ -96,6 +97,7 @@ const Contact = () => {
             placeholder="Let me know what's up"
             onChange={e => onChange(e)}
             autoComplete='off'
+            required
           />
           <div style={{ margin: 'auto', width: '55%', textAlign: 'right' }}>
             <Button

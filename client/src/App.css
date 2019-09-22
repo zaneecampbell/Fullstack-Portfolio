@@ -39,9 +39,9 @@ body {
   fill: black;
 }
 
-#sass-svg:hover > path {
+#bootstrap-svg:hover #bootstrap1-svg {
   transition: 0.3s ease;
-  fill: #c69;
+  fill: rgb(33.72549%,23.921569%,48.627451%);
 }
 
 #material-ui-svg:hover #material-ui-svg1 {
