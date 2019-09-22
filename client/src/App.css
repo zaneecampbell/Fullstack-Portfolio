@@ -44,7 +44,7 @@ body {
   fill: rgb(33.72549%, 23.921569%, 48.627451%);
 }
 
-#express-svg:hover > path{
+#express-svg:hover > path {
   transition: 0.3s ease;
   fill: black;
 }
@@ -81,17 +81,17 @@ body {
 
 #mongodb-svg:hover #mongodb-svg1 {
   transition: 0.3s ease;
-  fill: rgb(65.098039%,63.921569%,52.156863%);
+  fill: rgb(65.098039%, 63.921569%, 52.156863%);
 }
 
 #mongodb-svg:hover #mongodb-svg2 {
   transition: 0.3s ease;
-  fill: rgb(28.627451%,61.568627%,29.019608%);
+  fill: rgb(28.627451%, 61.568627%, 29.019608%);
 }
 
 #mongodb-svg:hover #mongodb-svg3 {
   transition: 0.3s ease;
-  fill: rgb(34.509804%,66.666667%,31.372549%);
+  fill: rgb(34.509804%, 66.666667%, 31.372549%);
 }
 
 #git-svg:hover > path {
