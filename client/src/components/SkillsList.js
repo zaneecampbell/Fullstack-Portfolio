@@ -16,7 +16,7 @@ export const SkillsList = props => {
   return (
     <div style={{ maxWidth: '600px', margin: 'auto' }}>
       <Grid container spacing={0} justify='center' alignItems='center'>
-        <Grid item style={{ marginTop: '15px' }} xs={3} md={4}>
+        <Grid item xs={3} md={4}>
           <Tooltip classes={{ tooltip: classes.tooltip }} title='Html5'>
             <SvgIcon
               id='html5-svg'
@@ -31,7 +31,7 @@ export const SkillsList = props => {
           </Tooltip>
         </Grid>
 
-        <Grid item style={{ marginTop: '15px' }} xs={3} md={4}>
+        <Grid item xs={3} md={4}>
           <Tooltip classes={{ tooltip: classes.tooltip }} title='CSS3'>
             <SvgIcon
               id='css3-svg'
@@ -47,7 +47,7 @@ export const SkillsList = props => {
           </Tooltip>
         </Grid>
 
-        <Grid item style={{ marginTop: '15px' }} xs={3} md={4}>
+        <Grid item xs={3} md={4}>
           <Tooltip classes={{ tooltip: classes.tooltip }} title='Javascript'>
             <SvgIcon
               id='js-svg'
@@ -249,4 +249,4 @@ export const SkillsList = props => {
 
 export default withStyles(styles)(SkillsList);
 
-// Done
+// Updated to row margins for icons
