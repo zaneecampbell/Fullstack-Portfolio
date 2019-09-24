@@ -16,7 +16,7 @@ export const SkillsList = props => {
   return (
     <div style={{ maxWidth: '600px', margin: 'auto' }}>
       <Grid container spacing={0} justify='center' alignItems='center'>
-        <Grid item xs={3} md={4}>
+        <Grid item xs={4} md={4}>
           <Tooltip classes={{ tooltip: classes.tooltip }} title='Html5'>
             <SvgIcon
               id='html5-svg'
@@ -31,7 +31,7 @@ export const SkillsList = props => {
           </Tooltip>
         </Grid>
 
-        <Grid item xs={3} md={4}>
+        <Grid item xs={4} md={4}>
           <Tooltip classes={{ tooltip: classes.tooltip }} title='CSS3'>
             <SvgIcon
               id='css3-svg'
@@ -47,7 +47,7 @@ export const SkillsList = props => {
           </Tooltip>
         </Grid>
 
-        <Grid item xs={3} md={4}>
+        <Grid item xs={4} md={4}>
           <Tooltip classes={{ tooltip: classes.tooltip }} title='Javascript'>
             <SvgIcon
               id='js-svg'
@@ -62,7 +62,7 @@ export const SkillsList = props => {
           </Tooltip>
         </Grid>
 
-        <Grid item style={{ marginTop: '15px' }} xs={3} md={4}>
+        <Grid item style={{ marginTop: '15px' }} xs={4} md={4}>
           <Tooltip classes={{ tooltip: classes.tooltip }} title='NodeJS'>
             <SvgIcon
               id='nodejs-svg'
@@ -77,7 +77,7 @@ export const SkillsList = props => {
           </Tooltip>
         </Grid>
 
-        <Grid item style={{ marginTop: '15px' }} xs={3} md={4}>
+        <Grid item style={{ marginTop: '15px' }} xs={4} md={4}>
           <Tooltip classes={{ tooltip: classes.tooltip }} title='React'>
             <SvgIcon
               id='react-svg'
@@ -108,7 +108,7 @@ export const SkillsList = props => {
           </Tooltip>
         </Grid>
 
-        <Grid item style={{ marginTop: '15px' }} xs={3} md={4}>
+        <Grid item style={{ marginTop: '15px' }} xs={4} md={4}>
           <Tooltip classes={{ tooltip: classes.tooltip }} title='Redux'>
             <SvgIcon
               id='redux-svg'
@@ -131,7 +131,7 @@ export const SkillsList = props => {
           </Tooltip>
         </Grid>
 
-        <Grid item style={{ marginTop: '15px' }} xs={3} md={4}>
+        <Grid item style={{ marginTop: '15px' }} xs={4} md={4}>
           <Tooltip classes={{ tooltip: classes.tooltip }} title='Bootstrap 4'>
             <SvgIcon
               id='bootstrap-svg'
@@ -151,7 +151,7 @@ export const SkillsList = props => {
           </Tooltip>
         </Grid>
 
-        <Grid item style={{ marginTop: '15px' }} xs={3} md={4}>
+        <Grid item style={{ marginTop: '15px' }} xs={4} md={4}>
           <Tooltip classes={{ tooltip: classes.tooltip }} title='React-Router'>
             <SvgIcon
               id='react-router-svg'
@@ -172,7 +172,7 @@ export const SkillsList = props => {
           </Tooltip>
         </Grid>
 
-        <Grid item style={{ marginTop: '15px' }} xs={3} md={4}>
+        <Grid item style={{ marginTop: '15px' }} xs={4} md={4}>
           <Tooltip classes={{ tooltip: classes.tooltip }} title='ExpressJS'>
             <SvgIcon
               id='express-svg'
@@ -187,7 +187,7 @@ export const SkillsList = props => {
           </Tooltip>
         </Grid>
 
-        <Grid item style={{ marginTop: '15px' }} xs={3} md={4}>
+        <Grid item style={{ marginTop: '15px' }} xs={4} md={4}>
           <Tooltip classes={{ tooltip: classes.tooltip }} title='MongoDB'>
             <SvgIcon
               id='mongodb-svg'
@@ -213,7 +213,7 @@ export const SkillsList = props => {
           </Tooltip>
         </Grid>
 
-        <Grid item style={{ marginTop: '15px' }} xs={3} md={4}>
+        <Grid item style={{ marginTop: '15px' }} xs={4} md={4}>
           <Tooltip classes={{ tooltip: classes.tooltip }} title='Git'>
             <SvgIcon
               id='git-svg'
@@ -228,7 +228,7 @@ export const SkillsList = props => {
           </Tooltip>
         </Grid>
 
-        <Grid item style={{ marginTop: '15px' }} xs={3} md={4}>
+        <Grid item style={{ marginTop: '15px' }} xs={4} md={4}>
           <Tooltip classes={{ tooltip: classes.tooltip }} title='Github'>
             <SvgIcon
               id='github-svg'
