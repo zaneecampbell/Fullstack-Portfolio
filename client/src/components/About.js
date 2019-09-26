@@ -108,6 +108,12 @@ export const About = props => {
             </div>
             <div className={classes.skillsList}>
               <SkillsList />
+              <Typography style={{ marginTop: '25px' }}>
+                For all skills check out my{' '}
+                <a href='/Resume.pdf' target='_blank' rel='noopener noreferrer'>
+                  resume here
+                </a>
+              </Typography>
             </div>
           </Paper>
         </Grid>
