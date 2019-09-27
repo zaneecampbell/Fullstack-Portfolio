@@ -131,7 +131,7 @@ const Portfolio = () => {
                 maxWidth: '700px',
                 verticalAlign: 'text-bottom'
               }}
-              src='portfolio_images\Voting_App.jpg'
+              src='portfolio_images/Voting_App_Big.JPG'
               alt='Voting App'
             />
           </a>
