@@ -248,5 +248,3 @@ export const SkillsList = props => {
 };
 
 export default withStyles(styles)(SkillsList);
-
-// Updated to row margins for icons
