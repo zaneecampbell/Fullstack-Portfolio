@@ -15,12 +15,15 @@ const Portfolio = () => {
       <Typography
         style={{
           textAlign: 'center',
-          marginTop: '50px',
-          marginBottom: '50px'
+          marginTop: '50px'
         }}
         variant='h2'
       >
         Portfolio
+      </Typography>
+      <Typography style={{ marginBottom: '50px', textAlign: 'center' }}>
+        (Some pages may load slow as they are freely hosted on Heroku and need
+        to wake up.)
       </Typography>
       <section data-aos='fade-left'>
         <Grid justify='center' container>
@@ -128,7 +131,7 @@ const Portfolio = () => {
                 maxWidth: '700px',
                 verticalAlign: 'text-bottom'
               }}
-              src='portfolio_images/Voting_App.jpg'
+              src='portfolio_images\Voting_App.jpg'
               alt='Voting App'
             />
           </a>

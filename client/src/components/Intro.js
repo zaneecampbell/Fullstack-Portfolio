@@ -31,8 +31,7 @@ const Intro = () => {
             fontWeight: '300'
           }}
         >
-          Hi, My name is Zane. I'm a Fullstack Web Developer with a focus on the
-          MERN stack!
+          Hi, My name is Zane. I'm a Fullstack MERN Developer.
         </Typography>
       </div>
     </div>
