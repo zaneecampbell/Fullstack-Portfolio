@@ -110,7 +110,11 @@ export const About = props => {
               <SkillsList />
               <Typography style={{ marginTop: '25px' }}>
                 For all skills check out my{' '}
-                <a href='/Resume.pdf' target='_blank' rel='noopener noreferrer'>
+                <a
+                  href='/Zane Campbell Resume.pdf'
+                  target='_blank'
+                  rel='noopener noreferrer'
+                >
                   resume here
                 </a>
               </Typography>

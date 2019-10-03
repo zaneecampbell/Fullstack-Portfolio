@@ -15,15 +15,12 @@ const Portfolio = () => {
       <Typography
         style={{
           textAlign: 'center',
-          marginTop: '50px'
+          marginTop: '50px',
+          marginBottom: '50px'
         }}
         variant='h2'
       >
         Portfolio
-      </Typography>
-      <Typography style={{ marginBottom: '50px', textAlign: 'center' }}>
-        (Some pages may load slow as they are freely hosted on Heroku and need
-        to wake up.)
       </Typography>
       <section data-aos='fade-left'>
         <Grid justify='center' container>
@@ -57,16 +54,15 @@ const Portfolio = () => {
               Inventory App
             </Typography>
             <Typography
-              style={{ fontSize: '1.4rem', marginTop: '30px', margin: '15px' }}
+              style={{ fontSize: '1.4rem', margin: '15px', marginTop: '30px' }}
             >
-              Personal inventory tracking site, create an account and login to
-              create/update your own inventory. Utilizing the MERN stack the
-              FrontEnd is built using React, React-Redux w/ thunk middleware,
-              React-Router with authentication checking, and material-ui for
-              design, and the Backend server is built on top of Express,
-              passwords hashed in database with bcryptjs and tracked with
-              jsonwebtokens, validation utilizing express validator, and
-              mongodb/mongoose for users and user data. Hosted on heroku.
+              Create an account and login to create/update an inventory.
+              Utilizing the MERN stack with a React Frontend, using React-Redux
+              w/ thunk middleware, React-Router with authentication checks,
+              Material-Ui for design. Backend Express server, Mongodb/Mongoose
+              as a database, passwords hashed with bcryptjs, authentication
+              tracked with JSONwebtokens, validation with express-validator.
+              Hosted on Heroku.
             </Typography>
           </Grid>
         </Grid>
@@ -105,13 +101,13 @@ const Portfolio = () => {
               Digital Artist Portfolio
             </Typography>
             <Typography
-              style={{ fontSize: '1.4rem', marginTop: '30px', margin: '15px' }}
+              style={{ fontSize: '1.4rem', margin: '15px', marginTop: '30px' }}
             >
-              My first freelance project a portfolio website for a twitch
+              Freelance project, a portfolio website for a twitch
               streamer/digital artists. Built using the MERN stack. Uses
               ReactStrap as an intro to Bootstrap components for styling and
               React-Router for routing.. Email form runs server side sent
-              through an online api to request commissions of the artists.
+              through an online api to request commissions from the artists.
               Hosted on heroku.
             </Typography>
           </Grid>
@@ -147,7 +143,7 @@ const Portfolio = () => {
               Voting App
             </Typography>
             <Typography
-              style={{ fontSize: '1.4rem', marginTop: '30px', margin: '15px' }}
+              style={{ fontSize: '1.4rem', margin: '15px', marginTop: '30px' }}
             >
               A fullstack voting appliation built using the MERN stack. The
               Create page form adds more fields as the last field available is
