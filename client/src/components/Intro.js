@@ -31,7 +31,7 @@ const Intro = () => {
             fontWeight: '300'
           }}
         >
-          Hi, I'm Zane. I'm a Fullstack Developer.
+          Hi, I'm Zane. A Fullstack Developer.
         </Typography>
       </div>
     </div>
