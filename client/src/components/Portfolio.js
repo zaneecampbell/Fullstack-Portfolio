@@ -59,7 +59,7 @@ const Portfolio = () => {
               Create an account and login to create/update an inventory.
               Utilizing the MERN stack with a React Frontend, using React-Redux
               w/ thunk middleware, React-Router with authentication checks,
-              Material-Ui for design. Backend Express server, Mongodb/Mongoose
+              Material-UI for design. Backend Express server, Mongodb/Mongoose
               as a database, passwords hashed with bcryptjs, authentication
               tracked with JSONwebtokens, validation with express-validator.
               Hosted on Heroku.
@@ -105,10 +105,9 @@ const Portfolio = () => {
             >
               Freelance project, a portfolio website for a twitch
               streamer/digital artists. Built using the MERN stack. Uses
-              ReactStrap as an intro to Bootstrap components for styling and
-              React-Router for routing.. Email form runs server side sent
-              through an online api to request commissions from the artists.
-              Hosted on heroku.
+              ReactStrap for styling and React-Router for routing.. Email form
+              runs server side sent through an online api to request commissions
+              from the artists. Hosted on Heroku.
             </Typography>
           </Grid>
         </Grid>
@@ -150,7 +149,7 @@ const Portfolio = () => {
               used. I prevent multiple votes through setting id values in
               localstorage and checking them. The database Results page is
               updated in real-time for user convenience. Styled with
-              Material-UI. Hosted on heroku.
+              Material-UI. Hosted on Heroku.
             </Typography>
           </Grid>
         </Grid>
