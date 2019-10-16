@@ -37,8 +37,11 @@ const Contact = () => {
   };
 
   return (
-    <div style={{ background: '#e6e6e6', textAlign: 'center' }}>
-      <Typography style={{ paddingTop: '25px' }} variant='h2'>
+    <div style={{ background: '#e6e6e6' }}>
+      <Typography
+        style={{ paddingTop: '25px', textAlign: 'center' }}
+        variant='h2'
+      >
         Contact Me
       </Typography>
       <div
@@ -51,7 +54,7 @@ const Contact = () => {
       >
         <form onSubmit={e => onSubmit(e)}>
           <Grid container justify='center' spacing={0}>
-            <Grid xs={10} lg={6} item>
+            <Grid xs={10} lg={12} item>
               <TextField
                 style={{
                   fontSize: '25px',
@@ -67,7 +70,7 @@ const Contact = () => {
                 autoComplete='off'
               />
             </Grid>
-            <Grid xs={10} lg={6} item>
+            <Grid xs={10} lg={12} item>
               <TextField
                 style={{
                   fontSize: '25px',
@@ -89,8 +92,7 @@ const Contact = () => {
                 style={{
                   fontSize: '25px',
                   margin: '5px',
-                  width: '100%',
-                  minWidth: '300px'
+                  width: '100%'
                 }}
                 variant='outlined'
                 type='text'
