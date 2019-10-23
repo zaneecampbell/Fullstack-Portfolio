@@ -17,11 +17,11 @@ const Intro = () => {
         maxWidth: '500px'
       }}
     >
-      <img
+      {/* <img
         style={{ maxWidth: '200px', textAlign: 'center' }}
         src='/me.png'
         alt='Profile of Zane.'
-      />
+      /> */}
       <div style={{ marginRight: '15px', marginLeft: '15px' }}>
         <Typography
           style={{
