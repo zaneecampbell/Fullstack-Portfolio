@@ -80,7 +80,7 @@ const Landing = () => {
     retina_detect: true
   };
 
-  // smaller screens less particles for visibility and performance
+  // smaller screens less particles for performance
   if (window.screen.width < 960) {
     particleConfig.particles.number.value = 10;
     particleConfig.particles.line_linked.opacity = 1;

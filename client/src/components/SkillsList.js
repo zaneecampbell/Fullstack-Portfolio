@@ -13,6 +13,7 @@ const styles = theme => ({
 export const SkillsList = props => {
   const { classes } = props;
 
+  // SVGs are 85px native
   return (
     <div style={{ maxWidth: '600px', margin: 'auto' }}>
       <Grid container spacing={0} justify='center' alignItems='center'>

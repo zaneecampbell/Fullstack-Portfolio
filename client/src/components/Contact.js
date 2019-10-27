@@ -18,6 +18,7 @@ const Contact = () => {
     setEmailData({ ...emailData, [e.target.name]: e.target.value });
   };
 
+  // Send an email to host
   const onSubmit = async e => {
     e.preventDefault();
     try {
