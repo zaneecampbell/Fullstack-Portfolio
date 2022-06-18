@@ -1,5 +1,5 @@
-import React from 'react';
-import Typography from '@material-ui/core/Typography';
+import React from 'react'
+import Typography from '@material-ui/core/Typography'
 
 const Intro = () => {
   return (
@@ -31,13 +31,13 @@ const Intro = () => {
             fontWeight: '300'
           }}
         >
-          Hi, I'm Zane. A Fullstack Developer.
+          Hi, I'm Zane. An aspiring fullstack developer.
         </Typography>
       </div>
     </div>
-  );
-};
+  )
+}
 
-export default Intro;
+export default Intro
 
 // Add Portfolio picture
