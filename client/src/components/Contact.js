@@ -1,41 +1,41 @@
-import React, { useState } from 'react';
-import axios from 'axios';
-import Grid from '@material-ui/core/Grid';
-import TextField from '@material-ui/core/TextField';
-import Button from '@material-ui/core/Button';
-import { Typography } from '@material-ui/core';
+import React, { useState } from 'react'
+import axios from 'axios'
+import Grid from '@material-ui/core/Grid'
+import TextField from '@material-ui/core/TextField'
+import Button from '@material-ui/core/Button'
+import { Typography } from '@material-ui/core'
 
 const Contact = () => {
   const [emailData, setEmailData] = useState({
     email: '',
     name: '',
     text: ''
-  });
+  })
 
-  const { email, name, text } = emailData;
+  const { email, name, text } = emailData
 
   const onChange = e => {
-    setEmailData({ ...emailData, [e.target.name]: e.target.value });
-  };
+    setEmailData({ ...emailData, [e.target.name]: e.target.value })
+  }
 
   // Send an email to host
-  const onSubmit = async e => {
-    e.preventDefault();
-    try {
-      const config = {
-        headers: {
-          'Content-Type': 'application/json'
-        }
-      };
+  // const onSubmit = async e => {
+  //   e.preventDefault();
+  //   try {
+  //     const config = {
+  //       headers: {
+  //         'Content-Type': 'application/json'
+  //       }
+  //     };
 
-      const body = JSON.stringify({ email, name, text });
-      await axios.post('/api/email/', body, config);
-      console.log('success!');
-      setEmailData({ ...emailData, email: '', name: '', text: '' });
-    } catch (err) {
-      console.log(err.response.statusText);
-    }
-  };
+  //     const body = JSON.stringify({ email, name, text });
+  //     await axios.post('/api/email/', body, config);
+  //     console.log('success!');
+  //     setEmailData({ ...emailData, email: '', name: '', text: '' });
+  //   } catch (err) {
+  //     console.log(err.response.statusText);
+  //   }
+  // };
 
   return (
     <div style={{ background: '#e6e6e6' }}>
@@ -53,7 +53,7 @@ const Contact = () => {
           paddingTop: '25px'
         }}
       >
-        <form onSubmit={e => onSubmit(e)}>
+        <form>
           <Grid container justify='center' spacing={0}>
             <Grid xs={10} lg={12} item>
               <TextField
@@ -108,24 +108,19 @@ const Contact = () => {
               />
             </Grid>
           </Grid>
-          <Grid xs={11} md={11} lg={12} style={{ textAlign: 'right' }} item>
-            <Button
-              style={{
-                marginTop: '25px',
-                fontSize: '20px',
-                backgroundColor: '#495057',
-                padding: '5px',
-                color: '#e6e6e6'
-              }}
-              type='submit'
+          <Grid xs={11} md={11} lg={12} style={{ textAlign: `right` }} item>
+            <a
+              href={`mailto:ZaneGitInit@gmail.com?subject=ContactZanee&body=${
+                (email, name, text)
+              }`}
             >
-              Submit
-            </Button>
+              <Button>Submit</Button>
+            </a>
           </Grid>
         </form>
       </div>
     </div>
-  );
-};
+  )
+}
 
-export default Contact;
+export default Contact
