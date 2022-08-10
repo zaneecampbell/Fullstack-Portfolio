@@ -110,11 +110,20 @@ const Contact = () => {
           </Grid>
           <Grid xs={11} md={11} lg={12} style={{ textAlign: `right` }} item>
             <a
-              href={`mailto:ZaneGitInit@gmail.com?subject=ContactZanee&body=${
-                (email, name, text)
-              }`}
+              style={{ textDecoration: 'none' }}
+              href={`mailto:ZaneGitInit@gmail.com?subject=Contact Zane&body=Email:${email}, Name:${name}, Message:${text}`}
             >
-              <Button>Submit</Button>
+              <Button
+                style={{
+                  marginTop: '25px',
+                  fontSize: '20px',
+                  backgroundColor: '#495057',
+                  padding: '5px',
+                  color: '#e6e6e6'
+                }}
+              >
+                Submit
+              </Button>
             </a>
           </Grid>
         </form>
