@@ -82,7 +82,7 @@ const Landing = () => {
 
   // smaller screens less particles for performance
   if (window.screen.width < 960) {
-    particleConfig.particles.number.value = 20
+    particleConfig.particles.number.value = 25
     particleConfig.particles.line_linked.opacity = 1
   }
 

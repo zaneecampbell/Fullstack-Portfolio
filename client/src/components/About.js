@@ -1,9 +1,9 @@
-import React from 'react';
-import Grid from '@material-ui/core/Grid';
-import Paper from '@material-ui/core/Paper';
-import Typography from '@material-ui/core/Typography';
-import SkillsList from './SkillsList';
-import { withStyles } from '@material-ui/core/styles';
+import React from 'react'
+import Grid from '@material-ui/core/Grid'
+import Paper from '@material-ui/core/Paper'
+import Typography from '@material-ui/core/Typography'
+import SkillsList from './SkillsList'
+import { withStyles } from '@material-ui/core/styles'
 
 const styles = theme => ({
   container: {
@@ -64,10 +64,10 @@ const styles = theme => ({
   skillsList: {
     marginTop: 50
   }
-});
+})
 
 export const About = props => {
-  const { classes } = props;
+  const { classes } = props
 
   return (
     <Paper className={classes.paperWrapper} square={true}>
@@ -78,20 +78,19 @@ export const About = props => {
               About
             </Typography>
             <Typography className={classes.typographyP1}>
-              Hi I'm Zane, a Fullstack Developer. I relocated here from Oklahoma
-              for better career opportunities and I've been studying ever since.
-              Outside of development I enjoy cooking new dishes and hiking with
-              a small group of friends. Learning is my passion and programming
-              has been the best outlet I could have found, always looking for
-              that next best answer, practicing that new library, or sifting
-              through documentation for better understanding.
+              Hi, I'm Zane a Web Developer. I relocated here from Oklahoma for
+              better opportunities and I've been studying ever since. Highly
+              focused and always ready for a new challenge, I keep going till
+              the job is done and I'm satisfied with the results. I take a lot
+              of pride in my work no matter the project and I love constructive
+              criticism. Problem solving is my passion and programmings my best
+              outlet for just that.
             </Typography>
             <Typography className={classes.typographyP2}>
-              Highly focused and always ready for a new challenge, I keep going
-              till the job is done and I'm satisfied with the results. Taking
-              pride in my work no matter the project. Developing always leads to
-              problem-solving, and problem-solving is the most interactive way
-              to learn.
+              Outside of development I enjoy cooking and baking for friends.
+              Anything from my mothers secret Sooner BBQ sauce to crème brûlée
+              and full salmon dinners. I'm also an avid hiker with a small group
+              of friends, early up and early down almost every Friday.
             </Typography>
           </Paper>
         </Grid>
@@ -123,7 +122,7 @@ export const About = props => {
         </Grid>
       </Grid>
     </Paper>
-  );
-};
+  )
+}
 
-export default withStyles(styles)(About);
+export default withStyles(styles)(About)
