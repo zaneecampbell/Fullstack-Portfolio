@@ -1,10 +1,10 @@
-import React from 'react';
-import NavBar from './NavBar';
-import Intro from './Intro';
-import Particles from 'react-particles-js';
-import About from './About';
-import Portfolio from './Portfolio';
-import Contact from './Contact';
+import React from 'react'
+import NavBar from './NavBar'
+import Intro from './Intro'
+import Particles from 'react-particles-js'
+import About from './About'
+import Portfolio from './Portfolio'
+import Contact from './Contact'
 
 const Landing = () => {
   // config for particle js background
@@ -78,12 +78,12 @@ const Landing = () => {
       }
     },
     retina_detect: true
-  };
+  }
 
   // smaller screens less particles for performance
   if (window.screen.width < 960) {
-    particleConfig.particles.number.value = 10;
-    particleConfig.particles.line_linked.opacity = 1;
+    particleConfig.particles.number.value = 20
+    particleConfig.particles.line_linked.opacity = 1
   }
 
   return (
@@ -105,7 +105,7 @@ const Landing = () => {
         <Contact />
       </div>
     </div>
-  );
-};
+  )
+}
 
-export default Landing;
+export default Landing
